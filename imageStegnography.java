@@ -11,7 +11,6 @@ public class imageStegnography
 	{
 		byte[] bytes = s.getBytes();
 		String binary = new String();
-		String bt = new BigInteger(s.getBytes()).toString(2);
 		for (byte b : bytes)
 		{
 			int val = b;
@@ -21,8 +20,6 @@ public class imageStegnography
 				val <<= 1;
 			}
 		}
-		System.out.println(bt);
-		System.out.println(binary);
 		return binary;
 	}
 
