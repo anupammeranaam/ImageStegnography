@@ -29,7 +29,7 @@ public class imageStegnography
 		File f = null;
 
 		String message = "hello";
-		jpgGreyscale jobj = new jpgGreyscale();
+		imageStegnography iobj = new imageStegnographys();
 
 		String binary = jobj.strToBit(message);
 		char code[] = binary.toCharArray();
