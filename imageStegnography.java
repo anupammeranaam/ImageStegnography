@@ -29,9 +29,9 @@ public class imageStegnography
 		File f = null;
 
 		String message = "hello";
-		imageStegnography iobj = new imageStegnographys();
+		imageStegnography iobj = new imageStegnography();
 
-		String binary = jobj.strToBit(message);
+		String binary = iobj.strToBit(message);
 		char code[] = binary.toCharArray();
 
 		try
